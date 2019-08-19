@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE template SYSTEM "template.dtd">
+
+<template>
+<askcontainer>1</askcontainer>
+<description>Create a automount map</description>
+<icon>home.png</icon>
+<invalid>0</invalid>
+<rdn>cn</rdn>
+<title>automount</title>
+<visible>1</visible>
+
+<objectClasses>
+<objectClass id="automount"></objectClass>
+</objectClasses>
+
+<attributes>
+<attribute id="cn">
+	<display>Common Name</display>
+	<hint>don't include "cn="</hint>
+	<order>1</order>
+	<page>1</page>
+</attribute>
+<attribute id="automountInformation">
+	<display>Automount Information</display>
+	<order>2</order>
+	<page>1</page>
+</attribute>
+</attributes>
+
+</template>
